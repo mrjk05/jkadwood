@@ -1,0 +1,61 @@
+site: Jins
+url: jinskadwood.com
+title: Jins
+description: My random writings. If you like it then cool. 
+googlewebfonts: Inter:wght@100;400;600;700
+twitter:
+  username: mrjk_
+  card: summary
+  creator: mrjk_
+author:
+  twitter: mrjk_
+  name: jins
+  avatar:
+permalink: pretty
+
+baseurl: ""
+
+highlighter: rouge
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
