@@ -13,7 +13,7 @@ author:
   avatar:
 permalink: pretty
 
-baseurl: ""
+baseurl: "/"
 
 highlighter: rouge
 
