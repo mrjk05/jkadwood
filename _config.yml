@@ -1,3 +1,17 @@
+lsi: false
+safe: true
+source: /
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
+domain: jinskadwood.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+baseurl: /_site/      # place folder name if the site is served in a subfo
 site: Jins
 url: jinskadwood.com
 title: Jins
