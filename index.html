@@ -9,7 +9,7 @@ layout: default
             <div></div>
         </button>
     </div>
-    <p>I'm Jins, Chief Technology Officer, high performance coach, strategist and lover of the intersection of behavioural sciences and technology. My site aims to provide you practical knowledge, tips and inssights into how to be a better technologist (perhaps even more than that). I'm not perfect, I do make mistakes. I'm providing my experiences to those that want to listen.</p>
+    <p>I'm Jins, technology & product executive, high performance coach, strategist and lover of the intersection of behavioural sciences and technology. My site aims to provide you practical knowledge, tips and inssights into how to be a better product technologist (perhaps even more than that). I'm not perfect, I do make mistakes. I'm providing my experiences to those that want to listen.</p>
 </section>
 
 <section class="posts">
@@ -21,4 +21,17 @@ layout: default
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></li>
         {% endfor %}
     </ul>
+</section>
+
+<section class="tagcloud">
+    <h2>Tag Cloud</h2>
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+    <span class="site-tag">
+        <a href="/tag/{{ tag | first | slugify }}/"
+            style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+        </a>
+    </span>
+    {% endfor %}
 </section>

@@ -9,3 +9,5 @@ gem 'eventmachine', "~> 1.2.7"
 gem 'jekyll-avatar', "~> 0.7.0"
 gem 'em-websocket', "~> 0.5.2"
 gem "webrick", "~> 1.7"
+gem 'jekyll-feed'
+gem 'jekyll-compress-images', :git => 'https://github.com/valerijaspasojevic/jekyll-compress-images.git'

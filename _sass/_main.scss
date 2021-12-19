@@ -317,7 +317,7 @@ header ul {
 }
 
 time {
-	color: var(--light-text-color);
+	/* color: var(--light-text-color); */
 }
 
 .post > h1.title {
@@ -333,7 +333,6 @@ main {
 	display: flex;
 	max-width: 47rem;
 	margin: -5rem auto 0;
-	padding: 2.4rem 2rem;
 	flex-direction: column;
 }
 
