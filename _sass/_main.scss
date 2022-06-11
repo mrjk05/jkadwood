@@ -39,14 +39,16 @@ html[data-theme="light"] {
 	--medium-text-color: #555;
 	--main-text-color: #333;
 	--dark-text-color: #111;
-	--link-color: color(display-p3 0.052 0.077 0.056);
+	--link-color: #0c140e;
+	--link-color-p3: color(display-p3 0.052 0.077 0.056);
 	--p3green: color(display-p3 0.693 0.865 0.666);
 	--p3darkgreen: color(display-p3 0.177 0.403 0.277);
 	--p3slate: color(display-p3 0.052 0.077 0.056);
+	--hexslate: #0c140e;
 	--p3white: color(display-p3 0.983 0.993 0.968);
 	--p3medium: color(display-p3 0.177 0.186 0.2);
 
-	background-color: color(display-p3 0.693 0.865 0.666);
+	background-color: #a5dea5;
 
 	#theme-toggle div {
 		position: relative;
@@ -102,14 +104,16 @@ html[data-theme="dark"] {
 	--medium-text-color: #888;
 	--main-text-color: #ddd;
 	--dark-text-color: #eee;
-	--link-color: color(display-p3 0.693 0.865 0.666);
+	--link-color: #a5dea5;
+	--link-color-p3: color(display-p3 0.693 0.865 0.666);
 	--p3green: color(display-p3 0.693 0.865 0.666);
 	--p3darkgreen: color(display-p3 0.177 0.403 0.277);
 	--p3slate: color(display-p3 0.052 0.077 0.056);
+	--hexslate: #0c140e;
 	--p3white: color(display-p3 0.983 0.993 0.968);
 	--p3medium: color(display-p3 0.177 0.186 0.2);
 
-	background-color: color(display-p3 0.052 0.077 0.056);
+	background-color: #0c140e;
 
 	#theme-toggle div {
 		position: relative;
@@ -160,7 +164,7 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: "Fira Code", monospace;
+	font-family: 'Inter', sans-serif;
 	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);
