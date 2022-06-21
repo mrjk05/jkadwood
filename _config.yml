@@ -2,7 +2,7 @@ site: Jins
 url: https://jinskadwood.com
 title: Jins
 description: My random writings. If you like it then cool. 
-googlewebfonts: Inter:wght@100;400;600;700
+googlewebfonts: Inter
 twitter:
   username: mrjk_
   card: summary
