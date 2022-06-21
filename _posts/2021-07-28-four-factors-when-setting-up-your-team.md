@@ -18,3 +18,6 @@ This is where formations and starting 11’s come into play. As a coach, picking
 
 There are so many different formations in football. All serve different purposes and outcomes. Some are more attack minded. Some are more defensive. Some enable high speed. While others centre on possession.
 
+Which formation is the right one you ask? All of them and none of them. It depends on your objective. It depends on the opposition. It depends on the players that you have at your disposal. There are so many factors that are considered to help a coach figure out the best use of the players to fit into a squad formation.
+
+Don't you just start your best 11 players? Yes and no. There is a great saying in football, "A champion team will always beat a team of champions".
