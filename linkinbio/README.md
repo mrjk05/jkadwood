@@ -1,2 +1,0 @@
-# jkadwood
-personal site

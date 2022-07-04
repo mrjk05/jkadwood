@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Jins Kadwood</title>
+    <link href="https://jinskadwood.com/feed.xml" rel="self" />
+    <link href="https://jinskadwood.com" />
+    <updated>1970-01-01T10:00:00+10:00</updated>
+    <author>
+        <name>Jins Kadwood</name>
+    </author>
+    <id>https://jinskadwood.com</id>
+
+</feed>

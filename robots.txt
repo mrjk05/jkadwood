@@ -1,5 +1,3 @@
----
-layout: none
----
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Disallow:
+Sitemap: https://jinskadwood.com/sitemap.xml
